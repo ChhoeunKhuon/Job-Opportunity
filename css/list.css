@@ -1,0 +1,27 @@
+.font{
+    color: red;
+}
+.imgx{
+    border-radius: 3px;
+}
+.btnedit{
+    color: green;
+    text-decoration: none;
+}
+.btnedit:hover{
+    color: black;
+}
+.btneditimg{
+    color: blue;
+    text-decoration: none;
+}
+.btneditimg:hover{
+    color: black;
+}
+.btndel{
+    color: red;
+    text-decoration: none;
+}
+.btndel:hover{
+    color: black;
+}

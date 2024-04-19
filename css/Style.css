@@ -1,0 +1,28 @@
+/* Interview block */
+#img{
+    width: 500px;
+    margin-top: 1rem;
+}
+.txtfirst{
+    display: flex;
+    justify-content: center;
+}
+.txt{
+    margin-top: 5rem;
+}
+.ptext{
+    margin-top: 10px;
+}
+#btnfind{
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+#btnfind:hover{
+    color: blue;
+    background-color: white;
+}
+

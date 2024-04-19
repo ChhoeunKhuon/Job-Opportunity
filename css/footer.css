@@ -1,0 +1,33 @@
+.webending{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+}
+.gtkdl{
+    color: red;
+}
+.gtkdl:hover{
+    text-decoration: underline;
+}
+.gtklist{
+    color: black;
+}
+.gtklist:hover{
+    text-decoration: underline;
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+    gap: 5pc;
+    background-color: rgb(247, 251, 247);
+}
+.term{
+    color: black;
+    padding: 10px;
+}
+.term:hover{
+    text-decoration: underline;
+}

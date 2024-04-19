@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+    width: 200px;
+}
+body{
+    background-color: gainsboro;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    margin-top: 5px;
+}
+.navbar .wrapper{
+    margin-top: 25px;
+}
+.navbar .wrapper .list{
+    display: inline;
+}
+.navbar .wrapper .list a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 10px;
+}
+.navbar .wrapper .list a:hover{
+    color: gray;
+}
+/* dropdown */
+.navbar .wrapper .list .dropdown .lista{
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+}
+.navbar .wrapper .list .dropdown{
+    position: absolute;
+    display: none;
+    margin-left: 4rem;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.navbar .wrapper .list:hover .dropdown{
+    display: block;
+}
+/* user details */
+/* .user-logo{
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.user-logo a{
+    text-decoration: none;
+} */
